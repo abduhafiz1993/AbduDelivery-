@@ -1,0 +1,202 @@
+/* Html element*/
+
+
+h3, h2, h1{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+
+body{
+    text-align: center;
+}
+
+.text-bolder{
+    font-size: 2em;
+}
+
+.text-bold{
+    font-size: 3em;
+}
+
+/* title note */
+.Title{
+    font-family: "Montserrat-black", sans-serif ;
+    font-size: 4rem;
+    line-height: 5rem;
+}
+                                    
+
+.btn.btn-lg{
+    margin: 2rem 0;
+} 
+
+
+#title {
+    background-color: #1D52F0;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Montserrat", sans-serif ;
+    text-align: left;
+}
+
+
+.img-dog{
+    height: 350px;
+    border-radius: 100%;
+    margin-left:10px;
+}
+
+
+.container-fluid{
+    padding: 7%  15%;
+}
+
+
+/*navigation part*/
+
+.navi-margin{
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    font-weight: "ubntu";
+}
+
+.nav-brand{
+    font-size: 2rem;
+}
+
+
+/*features*/
+
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+.feature-cont{
+    padding: 7% 15%;
+}
+
+
+.feature-box{
+    padding: 0 4.5%;
+
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: #25A0D9;
+}
+
+.icon:hover{
+color: #1D52F0;
+}
+
+/*testimonials*/
+
+#testimonials{
+    background-color: #25A0D9;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.dog-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+.test-text{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+/* press*/
+
+#press {
+    background-color:#25A0D9;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+.press-img{
+    width: 17%;
+    padding: 2.5rem;
+}
+
+/*card*/
+
+#pricing{
+    padding: 7% 0;
+    }
+.card-deck{
+    width: 100%;
+    margin: auto;
+
+}
+
+/*cta*/
+
+#cta{
+background-color:#1D52F0;
+padding: 7% 15%;
+}
+
+.cta-heading{
+    font-family: "Montserrat-black", sans-serif ;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    color: #fff;
+    padding: 7% 0 7% 0;
+}
+/*footer*/
+#footer{
+    padding: 7% 15%;
+    font-size: small;
+}
+.logo{
+    margin: 20px 10px;
+    display: inline-block;
+}
+/* query */
+
+@media (max-width: 1044px){
+    .img-dog{
+         position: static;
+         transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .test-text{
+        font-size: 1.5em;
+        line-height: 1em;
+
+    }
+    .press-img{
+        padding: 1rem;
+        width: 20%;
+    }
+    .button-div{
+        padding-bottom: 50px;
+    }
+    .dog-img{
+        width: 15%;
+        margin: 1rem;
+    }
+    .cta-heading{
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+}
+
